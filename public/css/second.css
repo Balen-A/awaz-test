@@ -1,0 +1,46 @@
+[role="link"] {
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-color: white;
+}
+
+.gridViewInfo {
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
+
+.btn-color {
+    background-color: #e5c560;
+}
+
+.text-color {
+    color: #e5c560;
+}
